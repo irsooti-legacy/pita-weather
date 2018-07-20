@@ -1,7 +1,9 @@
 
 <div align="center">
-  <h1>DRAFT</h1>
+  <h1>PITA Weather</h1>
+  <div>Una libreria che utilizza le stazioni meteo di wunderground</div>
   <img src="https://circleci.com/gh/irsooti/pita-weather.svg?style=svg" alt="CircleCI" />
+  
 </div>
 
 
