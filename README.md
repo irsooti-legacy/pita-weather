@@ -1,6 +1,6 @@
 
 <div align="center">
-  # DRAFT --------------
+  <h1>DRAFT</h1>
   <img src="https://circleci.com/gh/irsooti/pita-weather.svg?style=svg" alt="CircleCI" />
 </div>
 
