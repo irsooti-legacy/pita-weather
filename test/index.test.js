@@ -1,4 +1,4 @@
-import assert from 'assert'
+import assert, { fail } from 'assert'
 import { SUCCESS_CASE as endpointSucces, FAIL_CASE as endpointFail } from './endpoint.test'
 
 describe('Testing endpoints', function () {
@@ -9,5 +9,13 @@ describe('Testing endpoints', function () {
                 done();
             })
         });
+        it('should return a 404', function (done) {
+            endpointFail().then(resp => {
+                fail();
+            }).catch((err) => {
+                assert.equal(err.response.status, 404)
+                done();
+            });
+        })
     });
 });

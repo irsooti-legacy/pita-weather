@@ -1,8 +1,5 @@
 import httpClient from '../src/httpClient';
 
-
-
-
 export const SUCCESS_CASE = () => {
 
     let endpoint = 'weatherstation/WXCurrentObXML.asp';
@@ -17,7 +14,7 @@ export const SUCCESS_CASE = () => {
 
 export const FAIL_CASE = () => {
 
-    let endpoint = 'weatherstation/WXCurrentObXML.asp';
+    let endpoint = 'weatherstation/WXCurrenxxxxxxtObXML.asp';
     // ID=ISIASSOR2
 
 

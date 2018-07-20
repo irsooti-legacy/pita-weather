@@ -5,7 +5,7 @@ const httpClient = () => {
     const API_URL = 'http://api.wunderground.com/';
     const instance = axios.create({
         baseURL: API_URL,
-        timeout: 1000,
+        timeout: 3000,
         headers: { 'X-Custom-Header': 'cms' }
     });
 
