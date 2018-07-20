@@ -1,5 +1,6 @@
-# DRAFT --------------
+
 <div align="center">
+  # DRAFT --------------
   <img src="https://circleci.com/gh/irsooti/pita-weather.svg?style=svg" alt="CircleCI" />
 </div>
 
