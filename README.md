@@ -1,7 +1,7 @@
 
 <div align="center">
   <h1>PITA Weather</h1>
-  <div>Una libreria che utilizza le stazioni meteo di wunderground<br><br><br></div>
+  <div>Una libreria che utilizza le stazioni meteo di wunderground<br><br></div>
   <img src="https://circleci.com/gh/irsooti/pita-weather.svg?style=svg" alt="CircleCI" />
   
 </div>
