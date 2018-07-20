@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production src/config/webpack.config.js",
-    "test": "mocha --no-deprecation --compilers js:babel-core/register .\\test\\index.test.js --presets es2015",
+    "test": "mocha --no-deprecation --compilers js:babel-core/register ./test/index.test.js --presets es2015",
     "deploy": "gh-pages -d dist -b latest"
   },
   "devDependencies": {
