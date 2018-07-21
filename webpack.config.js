@@ -2,10 +2,14 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: '../src/index.js',
+    entry: '/src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'dist/pita-weather.js'
+        filename: 'pita-weather.js'
+    },
+    node: {
+        net: 'empty',
+        fs: 'empty'
     },
     module: {
         rules: [
@@ -15,7 +19,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env']
+                        presets: ['es2015']
                     }
                 }
             }

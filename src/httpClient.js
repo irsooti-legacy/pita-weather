@@ -1,5 +1,4 @@
 import axios from 'axios'
-import xml2json from 'xml2json'
 
 const httpClient = () => {
     const API_URL = 'http://api.wunderground.com/';
@@ -10,7 +9,6 @@ const httpClient = () => {
     });
 
     const convertResponseToJson = (response) => {
-        response.data = xml2json.toJson(response.data)
         return response;
     }
 
@@ -25,4 +23,4 @@ const httpClient = () => {
     return instance;
 }
 
-export default httpClient()
+export default httpClient();
