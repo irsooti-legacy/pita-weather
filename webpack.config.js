@@ -7,10 +7,10 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'pita-weather.js'
     },
-    node: {
-        net: 'empty',
-        fs: 'empty'
-    },
+    // node: {
+    //     net: 'empty',
+    //     fs: 'empty'
+    // },
     module: {
         rules: [
             {
